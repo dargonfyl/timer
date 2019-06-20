@@ -1,0 +1,34 @@
+<!doctype HTML>
+<html lang="en">
+	<head>
+		<title>HIIT Timer</title>
+		<meta charset="utf-9">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="description" content="A timer for all of your HIIT needs. Made because I have no idea how to make Android apps.">
+		<meta name="author" content="Dennis Wang">
+
+		<!--I just stole the css from a previous school assignment starter code... which I'm convinced the instructor stole from the internet-->
+		<link href="./style.css" rel="stylesheet">
+		<link href="./bootstrap.min.css" rel="stylesheet">
+	</head>
+	<body>
+		<div class="container">
+			<h3 class="text-muted">HIIT Timer</h3>
+			<p class="arg">dfajasdjflkas</p>
+			<div>
+				<p class="label">Work time: <input type="number" min="30" value="30" class="numberInput" id="work"></p>
+				<p class="label">Rest time: <input type="number" min="15" value="60" class="numberInput" id="rest"></p>
+			</div>
+			<button id="start" class="btn btn-sm btn-danger" onclick="start()">Start!</button>
+			<div class="centerStage">
+				<!-- Where the magic is-->
+				<p id="status">Status</p>
+				<p id="countdown">--</p>
+			</div>
+			<footer class="footer">
+				<P>Made by some dude who does not know how to make Android apps</P>
+			</footer>
+			<script src="./index.js"></script>
+		</div>
+	</body>
+</html>
