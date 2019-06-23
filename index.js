@@ -21,6 +21,7 @@ var run = () => {
 		timer--;
 		console.log(timer);
 	} else {
+		alertSound.play();
 		if (workStatus) {
 			timer = restTime;
 			status.innerHTML = "Rest";
